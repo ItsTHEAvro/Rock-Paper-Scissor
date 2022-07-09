@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+     user-select: none;
+}
+
+body
+{
+    background-color: #222831;
+    color: #EEE;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*
+393E46
+00ADB5
+EEEEEE
+*/
+
+
+#title
+{
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    font-size: 1.5 em;
+    margin: 30px auto;
+}
+
+main
+{
+    max-width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#playArena
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.imgHolderArena
+{
+    width: 75%;
+}
+
+.choiceImg
+{
+    width: 100%;
+    background-size: cover;
+}
+
+#imgGallery
+{
+    min-width: 40%;
+    max-width: 420px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.weapon
+{
+    min-width: 20%;
+    max-width: 120px;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    /* transition: 0.1s ease-in-out; */
+}
+
+.weapon:hover
+{
+    cursor: pointer;
+}
+
+.weapon:active {
+    background-color: rgb(122, 122, 122);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+.weapon img
+{
+    width: 100%;
+    background-size: cover;
+}
+
+.area
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.scoreBoard
+{
+    padding: 15px;
+}
+
+footer
+{
+    margin: 25px auto;
+}
+
+#resultInfo
+{
+    margin: 5px auto;
+}
+
+main h2
+{
+    margin: 5px auto;
+}
